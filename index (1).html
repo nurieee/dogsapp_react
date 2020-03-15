@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> >Dog Project </title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <meta
+    name="description"
+    content="Web site created using create-react-app"
+  />
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">Dogs</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+           
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 mt-3 mt-md-5">
+                <div class="card">
+                    <div class="card-body">
+                       <img class="img-fluid" src="images/dogs.jpg">
+                    </div>
+                </div>
+            </div>
+          
+            <div class="container">
+                <div id="content">
+                    <div id="viewContent">
+                        <h3>Select breed from list</h3>
+                        <select id="dogSelect">
+                            <option value="Select">Select</option>
+                            <option value="1">Affenpinscher</option>
+                            <option value="2">Afghan Hound</option>
+                            <option value="3">African Hunting Dog</option>
+                            <option value="4">Airedale Terrier</option>
+                            <option value="5">Akbash Dog</option>
+                            <option value="6">Akita</option>
+                            <option value="7">Alapaha Blue Blood Bulldog</option>
+                            <option value="23">Australian Shepherd</option>
+                            <option value="24">Australian Terrier</option>
+                            <option value="53">Boston Terrier</option>
+                            <option value="78">Chinese Crested</option>
+                            <option value="94">Doberman Pinscher</option>
+                            <option value="98">Dutch Shepherd</option>
+                            <option value="102">English Shepherd</option>
+                            <option value="115">German Shepherd Dog</option>
+                            <option value="121">Golden Retriever</option>
+                            <option value="135">Irish Terrier</option>
+                            <option value="176">Norwich Terrier</option>
+                            <option value="193">Pomeranian</option>
+                            <option value="201">Pug</option>
+                            <option value="210">Rottweiler</option>
+                            <option value="219">Scottish Terrier</option>
+                            <option value="226">Siberian Husky</option>
+                        </select>
+                        
+                       <button id="submit" class="btn btn-secondary">Find Dog</button>
+                       <button id="reset" class="btn btn-secondary">Reset</button>
+        
+                        <div class="icons">
+                            <i class="fa fa-list" onclick="list()"></i>
+                            <i class="fa fa-square" onclick="square()"></i>
+                            </div>
+                        <div id="message">
+                             </div>
+
+       
+
+       
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/home.js"></script>
+</body>
+
+
+</html>
